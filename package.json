@@ -3,7 +3,8 @@
   "displayName": "Code Roaster",
   "description": "A fun extension to roast your code on save!",
   "version": "0.1.0",
-  "publisher": "Alameer-Salim",
+  "publisher": "alameer",
+  "icon": "images/logo.webp",
   "engines": {
     "vscode": "^1.96.0"
   },
