@@ -1,8 +1,6 @@
 import * as vscode from "vscode";
 
 export function activate(context: vscode.ExtensionContext) {
-  console.log("Code Roaster Extension Activated!");
-
   // Command for manual roasting
   let roastCommand = vscode.commands.registerCommand("code-roaster.run", () => {
     roastActiveFile();
