@@ -1,21 +1,26 @@
 {
-  "name": "mouse",
-  "displayName": "code-roaster",
-  "description": "\"Code Roaster\" is the ultimate morale booster (or destroyer?) for developers! Every time you save your code, this extension throws a sarcastic, hilarious, or brutally honest roast your way. Perfect for those late-night coding sessions when you need a good laugh—or a reality check. Set your roast level to mild, spicy, or brutal, and let the roasting begin!",
-  "version": "0.0.1",
+  "name": "code-roaster",
+  "displayName": "Code Roaster",
+  "description": "A fun extension to roast your code on save!",
+  "version": "0.1.0",
+  "publisher": "Alameer-Salim",
   "engines": {
     "vscode": "^1.96.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onStartupFinished",
+    "onSaveTextDocument"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "mouse.helloWorld",
-        "title": "Hello World"
+        "command": "code-roaster.run",
+        "title": "Run Code Roaster",
+        "category": "Code Roaster"
       }
     ]
   },
@@ -32,6 +37,14 @@
     "check-types": "tsc --noEmit",
     "lint": "eslint src",
     "test": "vscode-test"
+  },
+  "author": {
+    "name": "Alameer Salim",
+    "email": "ameersalim80@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
   },
   "devDependencies": {
     "@types/vscode": "^1.96.0",

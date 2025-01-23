@@ -1,71 +1,59 @@
-# mouse README
+# Code Roaster 🥵☕️
 
-This is the README for your extension "mouse". After writing up a brief description, we recommend including the following sections.
+Code Roaster is a fun and goofy Visual Studio Code extension that roasts your code every time you save a file. Whether you need a laugh or just want to add some flavor to your coding experience, this extension is here to bring a little spice to your day.
 
-## Features
+## Features ✨
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Roasts on Save: Automatically throws a snarky roast at you whenever you save a file.
+Manual Roasting: Trigger a roast anytime by running the "Run Code Roaster" command.
+Start-up Activation: Code Roaster is ready to roast as soon as you open VS Code.
+Custom Messages: Packed with a variety of funny, sarcastic, and brutal one-liners about your code.
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation 📦
 
-\!\[feature X\]\(images/feature-x.png\)
+Open Visual Studio Code.
+Go to the Extensions View (Ctrl+Shift+X).
+Search for Code Roaster.
+Click Install.
+Enjoy being roasted! 🥴
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Usage 🛠️
 
-## Requirements
+Automatic Roasts
+Save any file, and Code Roaster will roast you instantly.
+Manual Roasts
+Press Ctrl+Shift+P (or Cmd+Shift+P on macOS).
+Select Run Code Roaster.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Example Roasts 🔥
 
-## Extension Settings
+Here are some examples of the spicy feedback you’ll get:
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+"Wow, did ChatGPT write this code for you?"
+"Your code has more bugs than an anthill."
+"Bold of you to assume this will compile."
+"This looks like JavaScript pretending to be Python."
 
-For example:
+## Configuration ⚙️
 
-This extension contributes the following settings:
+Currently, Code Roaster doesn’t have custom settings (yet!). Let us know if you’d like to configure your own roast messages or enable/disable the feature.
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## Contributing 🤝
 
-## Known Issues
+Want to add your own roasts or improve the extension? Contributions are welcome! Here’s how you can contribute:
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Fork the repository.
+Create a new branch: git checkout -b feature/your-feature.
+Commit your changes: git commit -m 'Add some feature'.
+Push to the branch: git push origin feature/your-feature.
+Open a pull request.
 
-## Release Notes
+## License 📜
 
-Users appreciate release notes as you update your extension.
+This project is licensed under the MIT License.
 
-### 1.0.0
+## Feedback 💬
 
-Initial release of ...
+Have ideas, feedback, or new roast suggestions? Open an issue on my GitHub repository!
 
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Keep coding and stay roasted! 🔥
